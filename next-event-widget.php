@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Next Event Widget
-Plugin URI: http://github.com/michaelschwarz1/
+Plugin URI: https://github.com/michaelschwarz1/next-event-widget
 Description: Displays the upcoming events from the cooltimeline plugin in a simple widget
 Author: Michael M. Schwarz
 Version: 1.0
