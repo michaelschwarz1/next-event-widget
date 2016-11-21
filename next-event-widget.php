@@ -75,8 +75,7 @@ class NextEventWidget extends WP_Widget
        $html.='<div id="next_post_plugin" class="textwidget">';
 	   while ($ctl_loop->have_posts()) : $ctl_loop->the_post();
             $html.='<h4>>'. get_the_date($format) . ' - ';
-            $html.='<a href="http://hard-polka-wage.de/?page_id=27">';
-            $html .=get_the_title() . '</h4></a>';
+            $html .=get_the_title() . '</h4>';
     
         endwhile;
         $html.='</div>';
